@@ -44,20 +44,20 @@ nav {
 
 .bannar-style{
     align-items: center;
-    margin: 0 200px;
+    margin: 0px 0px 0px 200px;
     display: flex;
-    background-image:url(/images/header_bg.png);
-    background-position:right bottom;
+    background-image: url(/images/header_bg.png);
     background-repeat: no-repeat;
-    height: 678px;
+    background-position: right bottom;
+    height: 710px;
 }
 header {
-    background-color:bisque;
+    background-color:rgb(250, 236, 216);
     margin-top: 0;
     background-image:url(/images/developer.png);
     background-position: left;
     background-repeat: no-repeat;
-    height: 850px;
+    height: 790px;
 }  
 .bannar-title-1{
     font-size: 45px;
@@ -69,6 +69,7 @@ header {
 }
 .bannar-style p,button{
     margin-top: 20px;
+    text-wrap:stable;
 }
 .btn-download{
     color: #FFFFFF;
