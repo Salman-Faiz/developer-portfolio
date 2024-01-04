@@ -4,7 +4,7 @@
 }
 
 .color-primary {
-    color:#FD6E0A;
+    color: #FD6E0A;
 }
 
 .nav-header {
@@ -30,6 +30,7 @@ nav {
     margin: 0px 200px;
 }
 
+
 .btn-primary {
     color: #FFFFFF;
     font-weight: 700;
@@ -40,38 +41,42 @@ nav {
     border-radius: 5px;
     background: #FD6E0A;
 }
+
 /* bannar styling */
 
-.bannar-style{
+.bannar-style {
     align-items: center;
     margin: 0px 0px 0px 200px;
     display: flex;
-    background-image: url(/images/header_bg.png);
-    background-repeat: no-repeat;
-    background-position: right bottom;
     height: 710px;
 }
+
 header {
-    background-color:rgb(250, 236, 216);
+    background-color:lightgoldenrodyellow;
     margin-top: 0;
-    background-image:url(/images/developer.png);
-    background-position: left;
+    background-image: url("/images/hardy.png"),url("/images/header_bg.png");
+    background-position:right bottom,right bottom;
     background-repeat: no-repeat;
     height: 790px;
-}  
-.bannar-title-1{
+}
+
+.bannar-title-1 {
     font-size: 45px;
     margin-top: 0px;
 }
-.bannar-title-2{
+
+.bannar-title-2 {
     font-size: 70px;
     margin-top: 60px;
 }
-.bannar-style p,button{
-    margin-top: 20px;
-    text-wrap:stable;
+
+.bannar-style p,
+button {
+    margin-top: 30px;
+    text-wrap: stable;
 }
-.btn-download{
+
+.btn-download {
     color: #FFFFFF;
     font-weight: 700;
     font-size: 22px;
