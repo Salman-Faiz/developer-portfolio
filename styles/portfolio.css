@@ -52,7 +52,7 @@ nav {
 }
 
 header {
-    background-color:lightgoldenrodyellow;
+    background: #FFF8F3;
     margin-top: 0;
     background-image: url("/images/hardy.png"),url("/images/header_bg.png");
     background-position:right bottom,right bottom;
@@ -73,7 +73,9 @@ header {
 .bannar-style p,
 button {
     margin-top: 30px;
-    text-wrap: stable;
+    text-align: left;
+    color: #757575;
+    font-size: 18px;
 }
 
 .btn-download {
@@ -86,3 +88,41 @@ button {
     border-radius: 5px;
     background: #FD6E0A;
 }
+/* about me portion */
+.section-info{
+    margin:200px 300px;
+    background: #FFF8F3;
+    height: 500px;
+}
+.about-me-title{
+font-size: 36px;
+text-align: center;
+padding-top: 30px;
+
+}
+.about-me-description{
+font-size: 20px;
+margin:100px 100px;
+text-align: center;
+color: #757575;
+}
+.about-info-container{
+display: flex;
+text-align: center;
+justify-content: space-around;
+/*  */
+
+}
+.about-info{
+    text-align: center;
+}
+.info-title{
+    color: #757575;
+    font-size:20px;
+}
+.info-description{
+   
+    font-size:20px;
+    font-weight: 700px;
+}
+
