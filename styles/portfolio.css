@@ -128,16 +128,26 @@ justify-content: space-around;
 }
 /* what i do style */
 .what-i-do{
-background:white;
-padding-top: 150px;
-margin:200px 300px;
+margin:80px 300px;
 
 }
 .section-title{
     text-align: center;
-    font-size: 30px;
+    font-size: 40px;
+    
 }
 .skills-container{
     display: flex;
-    margin-top: 100px;
+    padding-top: 70px;
+    height: 300px;
+
+
+
 }
+.skill-title{
+    padding-top: 30px;
+}
+.skill{
+    justify-content: space-around;
+}
+
