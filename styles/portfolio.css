@@ -110,11 +110,12 @@ color: #757575;
 display: flex;
 text-align: center;
 justify-content: space-around;
-/*  */
+/*  using justify content:space around for middileing the content  */
 
 }
 .about-info{
     text-align: center;
+
 }
 .info-title{
     color: #757575;
@@ -125,4 +126,18 @@ justify-content: space-around;
     font-size:20px;
     font-weight: 700px;
 }
+/* what i do style */
+.what-i-do{
+background:white;
+padding-top: 150px;
+margin:200px 300px;
 
+}
+.section-title{
+    text-align: center;
+    font-size: 30px;
+}
+.skills-container{
+    display: flex;
+    margin-top: 100px;
+}
