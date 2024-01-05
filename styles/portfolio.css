@@ -6,7 +6,7 @@
 .color-primary {
     color: #FD6E0A;
 }
-
+/* navigation */
 .nav-header {
     font-size: 48px;
     margin-top: 25px;
@@ -54,8 +54,8 @@ nav {
 header {
     background: #FFF8F3;
     margin-top: 0;
-    background-image: url("/images/hardy.png"),url("/images/header_bg.png");
-    background-position:right bottom,right bottom;
+    background-image: url("/images/hardy.png"), url("/images/header_bg.png");
+    background-position: right bottom, right bottom;
     background-repeat: no-repeat;
     height: 790px;
 }
@@ -88,55 +88,65 @@ button {
     border-radius: 5px;
     background: #FD6E0A;
 }
+
 /* about me portion */
-.section-info{
-    margin:200px 300px;
+.section-info {
+    margin: 200px 300px;
     background: #FFF8F3;
     height: 500px;
 }
-.about-me-title{
-font-size: 36px;
-text-align: center;
-padding-top: 30px;
+
+.about-me-title {
+    font-size: 36px;
+    text-align: center;
+    padding-top: 30px;
 
 }
-.about-me-description{
-font-size: 20px;
-margin:100px 100px;
-text-align: center;
-color: #757575;
+
+.about-me-description {
+    font-size: 20px;
+    margin: 100px 100px;
+    text-align: center;
+    color: #757575;
 }
-.about-info-container{
-display: flex;
-text-align: center;
-justify-content: space-around;
-/*  using justify content:space around for middileing the content  */
+
+.about-info-container {
+    display: flex;
+    text-align: center;
+    justify-content: space-around;
+    /*  using justify content:space around for middileing the content  */
 
 }
-.about-info{
+
+.about-info {
     text-align: center;
 
 }
-.info-title{
+
+.info-title {
     color: #757575;
-    font-size:20px;
+    font-size: 20px;
 }
-.info-description{
-   
-    font-size:20px;
+
+.info-description {
+
+    font-size: 20px;
     font-weight: 700px;
 }
+
 /* what i do style */
-.what-i-do{
-margin:80px 300px;
+.what-i-do {
+    margin: 80px 300px;
 
 }
-.section-title{
+
+.section-title {
     text-align: center;
     font-size: 40px;
-    
+
 }
-.skills-container{
+
+.skills-container {
     display: flex;
     padding-top: 70px;
     height: 300px;
@@ -144,10 +154,38 @@ margin:80px 300px;
 
 
 }
-.skill-title{
+
+.skill-title {
     padding-top: 30px;
 }
-.skill{
+
+.skill {
     justify-content: space-around;
+    text-wrap: wrap;
+
 }
+.resume{
+    text-align: center;
+    font-size: 36px;
+}
+#education-part{
+    flex-direction: column;
+    margin-left: 300px;
+    background-color: #FD6E0A;
+    float: left;
+    width: 651px;
+    height: 700px;
+    padding-top: 50px;
+}
+
+
+
+#experience-part{
+    flex-direction: column;
+    width: 651px;
+    background-color: chartreuse;
+    float: right;
+    margin-right: 300px;
+    height: 700px;
+    padding-top: 50px;
 
