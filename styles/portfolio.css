@@ -138,8 +138,7 @@ button {
 
 /* what i do style */
 .what-i-do {
-    max-width: 1140px;
-    max-height: 550px;
+
     margin-left: 230px;
     margin-right: 230px;
 }
@@ -243,4 +242,9 @@ img {
 .resume-buttom {
     text-align: center;
     margin-top: 50px;
+}
+/* contact portion */   
+.contact-controlar{
+    display: flex;
+    gap: 24px;
 }
