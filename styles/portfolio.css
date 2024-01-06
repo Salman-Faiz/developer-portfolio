@@ -55,8 +55,8 @@ nav {
 header {
     background: #FFF8F3;
     margin-top: 0;
-    background-image: url("/images/hardy.png"), url("/images/header_bg.png");
-    background-position: right bottom, right bottom;
+    background-image:url("/images/header_bg.png");
+    background-position: right bottom;
     background-repeat: no-repeat;
     height: 790px;
 }
