@@ -91,6 +91,7 @@ button {
 }
 
 /* about me portion */
+
 .section-info {
     margin: 200px 300px;
     background: #FFF8F3;
@@ -158,14 +159,14 @@ img {
     display: flex;
     gap: 24px;
     margin-left: 230px;
-    
+
     margin-bottom: 230px;
     border-radius: 5px;
     background: #FFF;
     box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
     width: 909px;
     height: 90px;
-    
+
 
 
 
@@ -194,7 +195,7 @@ img {
 }
 
 /* resume style */
-.resume{
+.resume {
     padding-top: 130px;
 }
 
@@ -243,8 +244,46 @@ img {
     text-align: center;
     margin-top: 50px;
 }
-/* contact portion */   
-.contact-controlar{
+
+/* contact portion */
+.contact {
+    background: #FFF8F3;
+    padding: 130px 200px;
+}
+
+.contact-controlar {
     display: flex;
-    gap: 24px;
+    gap: 117px;
+}
+
+.btn-submit {
+    color: #FFFFFF;
+    font-weight: 700;
+    font-size: 20px;
+    border: 0;
+    padding: 18px 39px;
+    height:normal;
+    border-radius: 5px;
+    background: #FD6E0A;
+    margin-top: 24px;
+
+}
+
+#contact-name,#contact-email {
+    width: 461px;
+    height: 64px;
+    margin-bottom: 24px;
+    border: none;
+}
+
+#contact-textarea {
+    width: 461px;
+    height: 180px;
+    border: none;
+}
+.contact-description{
+    padding-top: 20px;
+}
+#contact-name{
+    margin-top: 20px;
 }
